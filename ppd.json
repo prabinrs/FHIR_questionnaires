@@ -1,18 +1,4 @@
 {
- "resourceType": "Bundle",
- "id": "b1e90704-2f0b-40ad-8830-2b9fc67a1f63",
- "meta": {
-   "lastUpdated": "2024-09-24T14:14:44.088+00:00"
- },
- "type": "searchset",
- "total": 1,
- "link": [ {
-   "relation": "self",
-   "url": "https://fhir.loinc.org/Questionnaire/?url=http%3A%2F%2Floinc.org%2Fq%2F71354-5"
- } ],
- "entry": [ {
-   "fullUrl": "https://fhir.loinc.org/Questionnaire/71354-5",
-   "resource": {
      "resourceType": "Questionnaire",
      "id": "71354-5",
      "meta": {
