@@ -1,388 +1,130 @@
 {
-     "resourceType": "Questionnaire",
-     "id": "71354-5",
-     "meta": {
-       "versionId": "7",
-       "lastUpdated": "2024-08-06T21:03:46.493+00:00",
-       "source": "#WEjguR255B3Y7qmH"
-     },
-     "url": "http://loinc.org/q/71354-5",
-     "name": "Edinburgh_Postnatal_Depression_Scale",
-     "title": "Edinburgh Postnatal Depression Scale",
-     "status": "draft",
-     "subjectType": [ "Patient" ],
-     "publisher": "Regenstrief Institute, Inc.",
-     "contact": [ {
-       "name": "Regenstrief Institute, Inc.",
-       "telecom": [ {
-         "system": "url",
-         "value": "http://loinc.org"
-       } ]
-     } ],
-     "copyright": "This material contains content from LOINC (http://loinc.org). LOINC is copyright (c) Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee. All rights reserved. LOINC is available at no cost under the license at http://loinc.org/license. LOINC(r) is a registered United States trademark of Regenstrief Institute, Inc.\r\nCopyright (c) The Royal College of Psychiatrists The Edinburgh Postnatal Depression Scale may be photocopied by individual researchers or clinicians for their own use without seeking permission from the publishers. The scale must be copied in full and all copies must acknowledge the following source: Cox, J.L., Holden, J.M., & Sagovsky, R. (1987). Detection of postnatal depression. Development of the 10-item Edinburgh Postnatal Depression Scale. British Journal of Psychiatry, 150, 782-786. Written permission must be obtained from the Royal College of Psychiatrists for copying and distribution to others or for republication (in print, online or by any other medium).",
-     "code": [ {
-       "system": "http://loinc.org",
-       "code": "71354-5",
-       "display": "Edinburgh Postnatal Depression Scale"
-     } ],
-     "item": [ {
-       "linkId": "62085",
-       "code": [ {
-         "system": "http://loinc.org",
-         "code": "71344-6",
-         "display": "I have been able to laugh and see the funny side of things"
-       } ],
-       "text": "I have been able to laugh and see the funny side of things",
-       "type": "choice",
-       "repeats": false,
-       "answerOption": [ {
-         "valueCoding": {
-           "system": "http://loinc.org",
-           "code": "LA18376-6",
-           "display": "As much as I always could"
-         }
-       }, {
-         "valueCoding": {
-           "system": "http://loinc.org",
-           "code": "LA18377-4",
-           "display": "Not quite so much now"
-         }
-       }, {
-         "valueCoding": {
-           "system": "http://loinc.org",
-           "code": "LA18378-2",
-           "display": "Definitely not so much now"
-         }
-       }, {
-         "valueCoding": {
-           "system": "http://loinc.org",
-           "code": "LA6568-5",
-           "display": "Not at all"
-         }
-       } ]
-     }, {
-       "linkId": "62084",
-       "code": [ {
-         "system": "http://loinc.org",
-         "code": "71345-3",
-         "display": "I have looked forward with enjoyment to things"
-       } ],
-       "text": "I have looked forward with enjoyment to things",
-       "type": "choice",
-       "repeats": false,
-       "answerOption": [ {
-         "valueCoding": {
-           "system": "http://loinc.org",
-           "code": "LA18379-0",
-           "display": "As much as I ever could"
-         }
-       }, {
-         "valueCoding": {
-           "system": "http://loinc.org",
-           "code": "LA18380-8",
-           "display": "Rather less than I used to"
-         }
-       }, {
-         "valueCoding": {
-           "system": "http://loinc.org",
-           "code": "LA18381-6",
-           "display": "Definitely less than I used to"
-         }
-       }, {
-         "valueCoding": {
-           "system": "http://loinc.org",
-           "code": "LA18382-4",
-           "display": "Hardly at all"
-         }
-       } ]
-     }, {
-       "linkId": "62083",
-       "code": [ {
-         "system": "http://loinc.org",
-         "code": "71346-1",
-         "display": "I have blamed myself unnecessarily when things went wrong"
-       } ],
-       "text": "I have blamed myself unnecessarily when things went wrong",
-       "type": "choice",
-       "repeats": false,
-       "answerOption": [ {
-         "valueCoding": {
-           "system": "http://loinc.org",
-           "code": "LA18383-2",
-           "display": "Yes, most of the time"
-         }
-       }, {
-         "valueCoding": {
-           "system": "http://loinc.org",
-           "code": "LA18384-0",
-           "display": "Yes, some of the time"
-         }
-       }, {
-         "valueCoding": {
-           "system": "http://loinc.org",
-           "code": "LA18385-7",
-           "display": "Not very often"
-         }
-       }, {
-         "valueCoding": {
-           "system": "http://loinc.org",
-           "code": "LA18386-5",
-           "display": "No, never"
-         }
-       } ]
-     }, {
-       "linkId": "62082",
-       "code": [ {
-         "system": "http://loinc.org",
-         "code": "71347-9",
-         "display": "I have been anxious or worried for no good reason"
-       } ],
-       "text": "I have been anxious or worried for no good reason",
-       "type": "choice",
-       "repeats": false,
-       "answerOption": [ {
-         "valueCoding": {
-           "system": "http://loinc.org",
-           "code": "LA18387-3",
-           "display": "No, not at all"
-         }
-       }, {
-         "valueCoding": {
-           "system": "http://loinc.org",
-           "code": "LA14751-4",
-           "display": "Hardly ever"
-         }
-       }, {
-         "valueCoding": {
-           "system": "http://loinc.org",
-           "code": "LA18388-1",
-           "display": "Yes, sometimes"
-         }
-       }, {
-         "valueCoding": {
-           "system": "http://loinc.org",
-           "code": "LA18389-9",
-           "display": "Yes, very often"
-         }
-       } ]
-     }, {
-       "linkId": "62081",
-       "code": [ {
-         "system": "http://loinc.org",
-         "code": "71348-7",
-         "display": "I have felt scared or panicky for no very good reason"
-       } ],
-       "text": "I have felt scared or panicky for no very good reason",
-       "type": "choice",
-       "repeats": false,
-       "answerOption": [ {
-         "valueCoding": {
-           "system": "http://loinc.org",
-           "code": "LA18390-7",
-           "display": "Yes, quite a lot"
-         }
-       }, {
-         "valueCoding": {
-           "system": "http://loinc.org",
-           "code": "LA18388-1",
-           "display": "Yes, sometimes"
-         }
-       }, {
-         "valueCoding": {
-           "system": "http://loinc.org",
-           "code": "LA18391-5",
-           "display": "No, not much"
-         }
-       }, {
-         "valueCoding": {
-           "system": "http://loinc.org",
-           "code": "LA18387-3",
-           "display": "No, not at all"
-         }
-       } ]
-     }, {
-       "linkId": "62080",
-       "code": [ {
-         "system": "http://loinc.org",
-         "code": "71349-5",
-         "display": "Things have been getting on top of me"
-       } ],
-       "text": "Things have been getting on top of me",
-       "type": "choice",
-       "repeats": false,
-       "answerOption": [ {
-         "valueCoding": {
-           "system": "http://loinc.org",
-           "code": "LA18392-3",
-           "display": "Yes, most of the time I haven't been able to cope at all"
-         }
-       }, {
-         "valueCoding": {
-           "system": "http://loinc.org",
-           "code": "LA18393-1",
-           "display": "Yes, sometimes I haven't been coping as well as usual"
-         }
-       }, {
-         "valueCoding": {
-           "system": "http://loinc.org",
-           "code": "LA18394-9",
-           "display": "No, most of the time I have coped quite well"
-         }
-       }, {
-         "valueCoding": {
-           "system": "http://loinc.org",
-           "code": "LA18395-6",
-           "display": "No, have been coping as well as ever"
-         }
-       } ]
-     }, {
-       "linkId": "62079",
-       "code": [ {
-         "system": "http://loinc.org",
-         "code": "71350-3",
-         "display": "I have been so unhappy that I have had difficulty sleeping"
-       } ],
-       "text": "I have been so unhappy that I have had difficulty sleeping",
-       "type": "choice",
-       "repeats": false,
-       "answerOption": [ {
-         "valueCoding": {
-           "system": "http://loinc.org",
-           "code": "LA18383-2",
-           "display": "Yes, most of the time"
-         }
-       }, {
-         "valueCoding": {
-           "system": "http://loinc.org",
-           "code": "LA18388-1",
-           "display": "Yes, sometimes"
-         }
-       }, {
-         "valueCoding": {
-           "system": "http://loinc.org",
-           "code": "LA18385-7",
-           "display": "Not very often"
-         }
-       }, {
-         "valueCoding": {
-           "system": "http://loinc.org",
-           "code": "LA18387-3",
-           "display": "No, not at all"
-         }
-       } ]
-     }, {
-       "linkId": "62078",
-       "code": [ {
-         "system": "http://loinc.org",
-         "code": "71351-1",
-         "display": "I have felt sad or miserable"
-       } ],
-       "text": "I have felt sad or miserable",
-       "type": "choice",
-       "repeats": false,
-       "answerOption": [ {
-         "valueCoding": {
-           "system": "http://loinc.org",
-           "code": "LA18383-2",
-           "display": "Yes, most of the time"
-         }
-       }, {
-         "valueCoding": {
-           "system": "http://loinc.org",
-           "code": "LA18396-4",
-           "display": "Yes, quite often"
-         }
-       }, {
-         "valueCoding": {
-           "system": "http://loinc.org",
-           "code": "LA18385-7",
-           "display": "Not very often"
-         }
-       }, {
-         "valueCoding": {
-           "system": "http://loinc.org",
-           "code": "LA18387-3",
-           "display": "No, not at all"
-         }
-       } ]
-     }, {
-       "linkId": "62077",
-       "code": [ {
-         "system": "http://loinc.org",
-         "code": "71352-9",
-         "display": "I have been so unhappy that I have been crying"
-       } ],
-       "text": "I have been so unhappy that I have been crying",
-       "type": "choice",
-       "repeats": false,
-       "answerOption": [ {
-         "valueCoding": {
-           "system": "http://loinc.org",
-           "code": "LA18383-2",
-           "display": "Yes, most of the time"
-         }
-       }, {
-         "valueCoding": {
-           "system": "http://loinc.org",
-           "code": "LA18396-4",
-           "display": "Yes, quite often"
-         }
-       }, {
-         "valueCoding": {
-           "system": "http://loinc.org",
-           "code": "LA18397-2",
-           "display": "Only occasionally"
-         }
-       }, {
-         "valueCoding": {
-           "system": "http://loinc.org",
-           "code": "LA18386-5",
-           "display": "No, never"
-         }
-       } ]
-     }, {
-       "linkId": "62076",
-       "code": [ {
-         "system": "http://loinc.org",
-         "code": "71353-7",
-         "display": "The thought of harming myself has occurred to me"
-       } ],
-       "text": "The thought of harming myself has occurred to me",
-       "type": "choice",
-       "repeats": false,
-       "answerOption": [ {
-         "valueCoding": {
-           "system": "http://loinc.org",
-           "code": "LA18396-4",
-           "display": "Yes, quite often"
-         }
-       }, {
-         "valueCoding": {
-           "system": "http://loinc.org",
-           "code": "LA10082-8",
-           "display": "Sometimes"
-         }
-       }, {
-         "valueCoding": {
-           "system": "http://loinc.org",
-           "code": "LA14751-4",
-           "display": "Hardly ever"
-         }
-       }, {
-         "valueCoding": {
-           "system": "http://loinc.org",
-           "code": "LA6270-8",
-           "display": "Never"
-         }
-       } ]
-     }, {
-       "linkId": "126396",
-       "text": "Total score",
-       "type": "decimal"
-     } ]
-   },
-   "search": {
-     "mode": "match"
-   }
- } ]
+  "resourceType": "Questionnaire",
+  "id": "71354-5",
+  "meta": {
+    "versionId": "7",
+    "lastUpdated": "2024-08-06T21:03:46.493+00:00",
+    "source": "#WEjguR255B3Y7qmH"
+  },
+  "url": "http://loinc.org/q/71354-5",
+  "name": "Edinburgh_Postnatal_Depression_Scale",
+  "title": "Edinburgh Postnatal Depression Scale",
+  "status": "draft",
+  "subjectType": ["Patient"],
+  "publisher": "Regenstrief Institute, Inc.",
+  "contact": [
+    {
+      "name": "Regenstrief Institute, Inc.",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://loinc.org"
+        }
+      ]
+    }
+  ],
+  "copyright": "This material contains content from LOINC (http://loinc.org). LOINC is copyright (c) Regenstrief Institute, Inc...",
+  "code": [
+    {
+      "system": "http://loinc.org",
+      "code": "71354-5",
+      "display": "Edinburgh Postnatal Depression Scale"
+    }
+  ],
+  "item": [
+    {
+      "linkId": "62085",
+      "code": [
+        {
+          "system": "http://loinc.org",
+          "code": "71344-6",
+          "display": "I have been able to laugh and see the funny side of things"
+        }
+      ],
+      "text": "I have been able to laugh and see the funny side of things",
+      "type": "choice",
+      "repeats": false,
+      "answerOption": [
+        {
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA18376-6",
+            "display": "As much as I always could"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA18377-4",
+            "display": "Not quite so much now"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA18378-2",
+            "display": "Definitely not so much now"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA6568-5",
+            "display": "Not at all"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "62084",
+      "code": [
+        {
+          "system": "http://loinc.org",
+          "code": "71345-3",
+          "display": "I have looked forward with enjoyment to things"
+        }
+      ],
+      "text": "I have looked forward with enjoyment to things",
+      "type": "choice",
+      "repeats": false,
+      "answerOption": [
+        {
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA18379-0",
+            "display": "As much as I ever could"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA18380-8",
+            "display": "Rather less than I used to"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA18381-6",
+            "display": "Definitely less than I used to"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://loinc.org",
+            "code": "LA18382-4",
+            "display": "Hardly at all"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "126396",
+      "text": "Total score",
+      "type": "decimal"
+    }
+  ],
+  "search": {
+    "mode": "match"
+  }
 }
