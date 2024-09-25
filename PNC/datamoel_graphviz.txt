@@ -1,0 +1,38 @@
+digraph PNCDataModel {
+    node [shape=record];
+
+    Patient [label="{Patient|PatientID, Name, DateOfBirth, Gender, ContactInformation, Address, MedicalHistory}"];
+    Encounter [label="{Encounter|EncounterID, PatientID, EncounterDate, EncounterType, ProviderID, Location}"];
+    Observation [label="{Observation|ObservationID, PatientID, ObservationDate, ObservationType, Value, Unit, Status}"];
+    CarePlan [label="{CarePlan|CarePlanID, PatientID, CarePlanType, StartDate, EndDate, Goals, Activities}"];
+    Condition [label="{Condition|ConditionID, PatientID, ConditionType, OnsetDate, Status, Severity}"];
+    Procedure [label="{Procedure|ProcedureID, PatientID, ProcedureType, ProcedureDate, ProviderID, Status}"];
+    Provider [label="{Provider|ProviderID, Name, Specialty, ContactInformation, Organization}"];
+    CareTeam [label="{CareTeam|CareTeamID, PatientID, CareTeamType, Role, StartDate, EndDate, Members}"];
+    EducationalSession [label="{EducationalSession|SessionID, PatientID, SessionDate, Topic, InstructorID, Status}"];
+
+    Patient -> Encounter [label="has multiple"];
+    Patient -> Observation [label="has multiple"];
+    Patient -> CarePlan [label="has multiple"];
+    Encounter -> Procedure [label="includes multiple"];
+    Encounter -> Condition [label="includes multiple"];
+    Observation -> CarePlan [label="may be part of"];
+    CarePlan -> Observation [label="includes multiple"];
+    CarePlan -> Procedure [label="includes multiple"];
+    Condition -> Encounter [label="may be part of"];
+    Procedure -> Encounter [label="may be part of"];
+    Procedure -> CarePlan [label="may be part of"];
+    Encounter -> Patient [label="belongs to"];
+    Observation -> Patient [label="belongs to"];
+    CarePlan -> Patient [label="belongs to"];
+    Condition -> Patient [label="belongs to"];
+    Procedure -> Patient [label="belongs to"];
+    Encounter -> Provider [label="can be associated with"];
+    Procedure -> Provider [label="can perform"];
+
+    CareTeam -> Patient [label="provides care to"];
+    CareTeam -> CarePlan [label="executes"];
+    CareTeam -> Provider [label="includes"];
+    EducationalSession -> CareTeam [label="led by"];
+    EducationalSession -> Patient [label="attended by"];
+}
